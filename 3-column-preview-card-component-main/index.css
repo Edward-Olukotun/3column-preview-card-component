@@ -1,0 +1,131 @@
+body {
+  background: rgb(243, 241, 241);
+}
+.container {
+  width: 300px;
+}
+.container button:hover {
+  cursor: pointer;
+}
+.container img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Sedans {
+  background: hsl(31, 77%, 52%);
+}
+.Sedans-btn {
+  border: 2px solid white;
+  border-radius: 20px;
+  background: white;
+  color: hsl(31, 77%, 52%);
+}
+
+.SUVs {
+  background: hsl(179, 100%, 13%);
+}
+.SUVs-btn {
+  border: 2px solid white;
+  border-radius: 20px;
+  background: white;
+  color: hsl(179, 100%, 13%);
+}
+
+.Luxury {
+  background: hsl(184, 100%, 22%);
+}
+.luxury-btn {
+  border: 2px solid white;
+  border-radius: 20px;
+  background: white;
+  color: hsl(184, 100%, 22%);
+}
+.container p {
+  margin-left: 23px;
+  margin-right: 45px;
+}
+.container img {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container button {
+  margin-left: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 700px) {
+  body {
+    background: white;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 800px;
+    margin-left: 200px;
+  }
+  .container p {
+    margin-left: 23px;
+    margin-right: 45px;
+  }
+  .container img {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .container button {
+    margin-left: 23px;
+    margin-top: 100px;
+  }
+  .container button:hover {
+    cursor: pointer;
+  }
+  .Sedans {
+    width: 250px;
+    height: 400px;
+    background: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+  }
+  .Sedans-btn {
+    border: 2px solid white;
+    border-radius: 20px;
+    background: hsl(31, 77%, 52%);
+    color: white;
+    width: 100px;
+    height: 35px;
+  }
+  .SUVs {
+    width: 250px;
+    height: 400px;
+    background: hsl(179, 100%, 13%);
+  }
+  .SUVs-btn {
+    border: 2px solid white;
+    border-radius: 20px;
+    background: hsl(179, 100%, 13%);
+    color: white;
+    width: 100px;
+    height: 35px;
+  }
+
+  .Luxury {
+    width: 250px;
+    height: 400px;
+    background: hsl(184, 100%, 22%);
+    border-radius: 0 5px 5px 0;
+  }
+  .luxury-btn {
+    border: 2px solid white;
+    border-radius: 20px;
+    background: hsl(184, 100%, 22%);
+    color: white;
+    width: 100px;
+    height: 35px;
+  }
+  .attribution {
+    margin-left: 350px;
+  }
+}
